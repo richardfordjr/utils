@@ -1,0 +1,26 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "This package will supply you with some of the most commonly used utilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardfordjr/utils.git"
+  },
+  "author": "Richard Ford <richardfordjr@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardfordjr/utils/issues"
+  },
+  "homepage": "https://github.com/richardfordjr/utils#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "karma": "^1.7.0"
+  }
+}
