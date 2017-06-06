@@ -5,7 +5,7 @@ request = require('request'),
 methods = require('./lib/methods.js');
 
 console.log('app started');
-function makeHttpRequest(url, method){
+exports.getData() = function (url, method){
   var opts = {
     url: url,
     method: methods[method]
@@ -19,8 +19,4 @@ function makeHttpRequest(url, method){
        }
      })
   })
-}
-
-module.exports = {
-  aPromisedRequest: makeHttpRequest
 }
