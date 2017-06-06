@@ -1,6 +1,6 @@
 {
   "name": "simpletools",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package will supply you with some of the most commonly used utilities.",
   "main": "index.js",
   "scripts": {
