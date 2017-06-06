@@ -10,10 +10,10 @@ methods = require('./lib/methods.js');
  * @public
  */
 
-module.exports = getData;
+
 
 console.log('app started');
-function getData (url, method){
+exports.getData = function (url, method){
   var opts = {
     url: url,
     method: methods[method]
