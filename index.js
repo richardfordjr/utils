@@ -2,9 +2,9 @@
 
 var Promise = require('bluebird'),
 request = require('request'),
-methods = require('./methods.js');
+methods = require('./lib/methods.js');
 
-
+console.log('app started');
 function makeHttpRequest(url, method){
   var opts = {
     url: url,
