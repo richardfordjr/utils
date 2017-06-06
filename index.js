@@ -4,8 +4,16 @@ var Promise = require('bluebird'),
 request = require('request'),
 methods = require('./lib/methods.js');
 
+
+/**
+ * Module exports.
+ * @public
+ */
+
+module.exports = getData;
+
 console.log('app started');
-exports.getData = function (url, method){
+function getData (url, method){
   var opts = {
     url: url,
     method: methods[method]
